@@ -22,3 +22,8 @@ history organized? How would branches help?
 	Branches can be used to experiment with new features without disturbing the
 	main development branch. They can also help to keep the history clean
 	by letting a feature mature on the branch before merging it back.
+
+How do the diagrams help you visualize the branch structure?
+	
+	What kind of a stupid question is that? A diagram is a visualization of
+	the branch structure!
