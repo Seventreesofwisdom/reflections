@@ -10,3 +10,8 @@ repository? What value do you think it offers?
 	This way it's possible to divide changes in my working directory
 	into multiple commits, for example.
 	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By staging only the files I want to include in the commit I can divide 
+	changes in my working directory into multiple commits. Using git diff it's
+	possible to check exactly what will be committed.
