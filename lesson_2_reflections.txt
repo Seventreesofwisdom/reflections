@@ -27,3 +27,10 @@ How do the diagrams help you visualize the branch structure?
 	
 	What kind of a stupid question is that? A diagram is a visualization of
 	the branch structure!
+    
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+    The result is one branch containing the references to all commits of both
+    branches. In the diagram it's easy to see in which branch which commit was
+    made.
