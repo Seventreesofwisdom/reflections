@@ -29,3 +29,8 @@ What is the benefit of having a copy of the last known state of the remote store
     There is a risk though, because an offline merge will not take into account if any newer commits have
     been added to the remote. So this should be checked before pushing the result of an offline merge.
     
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    In a collaboration without any kind of version control it is a lot more difficult or even impossible
+    to understand who changed what and when. It would be necessary to agree on file naming conventions or
+    similar things to avoid losing track of changes.
