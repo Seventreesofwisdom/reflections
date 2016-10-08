@@ -14,9 +14,18 @@ Describe the differences between forks, clones, and branches. When would you use
 instead of another?
 
     A fork is an online copy of an existing (remote) github repository that can be changed without any
-    impact on the original repository. A clone is a copy of a github repository on a computer
+    impact on the original repository. A clone is a (local) copy of a github repository on a computer
     which can be used to make changes to the repository. The changes will only exist locally
     before pushing them to the remote repository. A branch is one version of a repository that
     can be changed independently from other branches of the same repository. A branch would be used
     to do experimental development that may result in an update of the main (master) branch. Bringing
     two branches together is called merging.
+    
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Having a local copy of the last known state allows to compare local changes to changes in the remote
+    without internet access and without having to merge immediately. It's possible to continue working
+    on local changes offline until they are ready to be merged and also the merge can be done offline.
+    There is a risk though, because an offline merge will not take into account if any newer commits have
+    been added to the remote. So this should be checked before pushing the result of an offline merge.
+    
