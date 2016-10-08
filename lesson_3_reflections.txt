@@ -34,3 +34,16 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     In a collaboration without any kind of version control it is a lot more difficult or even impossible
     to understand who changed what and when. It would be necessary to agree on file naming conventions or
     similar things to avoid losing track of changes.
+    
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+    Making changes directly in the master branch is easier because there is no extra effort for merging.
+    If only few people work on a repository and they make only small, stable, quick changes, working on master
+    can be an option. It is also possible to work locally without pushing to Github for some time, so "quick" is
+    not strictly necessary. However, there's no backup of the local changes this way and merging back to master
+    is more complicated when new changes have been made on the remote.
+    All in all, in most situations where more than 2 or 3 people are collaborating, a lot of experimental versions
+    of a project exist or changes take some time do be done, it makes sense to create separate branches.
+    It also makes it easier to see in the history of the repository how the development of separate features
+    was done.
